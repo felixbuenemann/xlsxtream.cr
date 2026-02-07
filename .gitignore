@@ -1,0 +1,9 @@
+/docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
+
+# Libraries don't need lock
+# Remove this if you are creating an application
+/shard.lock
