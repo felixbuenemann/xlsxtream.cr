@@ -1,5 +1,7 @@
 # Xlsxtream
 
+This is a Crystal port of the [xlsxtream](https://github.com/felixbuenemann/xlsxtream) Ruby gem.
+
 Xlsxtream is a streaming writer for XLSX spreadsheets. It supports multiple worksheets and optional string
 deduplication via a shared string table (SST). Its purpose is to replace CSV for large exports, because using
 CSV in Excel is very buggy and error prone. It's very efficient and can quickly write millions of rows with
