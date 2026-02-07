@@ -1,4 +1,4 @@
-# Xlsxtream
+# Xlsxtream.cr
 
 [![CI](https://github.com/felixbuenemann/xlsxtream.cr/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/felixbuenemann/xlsxtream.cr/actions/workflows/ci.yml)
 
