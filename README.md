@@ -1,5 +1,7 @@
 # Xlsxtream
 
+[![CI](https://github.com/felixbuenemann/xlsxtream.cr/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/felixbuenemann/xlsxtream.cr/actions/workflows/ci.yml)
+
 This is a Crystal port of the [xlsxtream](https://github.com/felixbuenemann/xlsxtream) Ruby gem.
 
 Xlsxtream is a streaming writer for XLSX spreadsheets. It supports multiple worksheets and optional string
