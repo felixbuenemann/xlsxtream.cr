@@ -1,7 +1,7 @@
 require "./xml"
 
 module Xlsxtream
-  alias CellValue = Nil | Bool | Int32 | Int64 | Float64 | String | Time | Date
+  alias CellValue = Nil | Bool | Int8 | Int16 | Int32 | Int64 | Int128 | UInt8 | UInt16 | UInt32 | UInt64 | UInt128 | Float32 | Float64 | String | Time | Date
 
   class Row
     NUMBER_PATTERN  = /\A-?[0-9]+(\.[0-9]+)?\z/
@@ -43,7 +43,7 @@ module Xlsxtream
         end
 
         case value
-        when Int32, Int64, Float64
+        when Number
           xml << %(<c r="#{cid}"#{normal_style} t="n"><v>#{value}</v></c>)
         when Bool
           xml << %(<c r="#{cid}"#{normal_style} t="b"><v>#{value ? 1 : 0}</v></c>)
